@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import logo from "./logo.png"
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -13,7 +14,7 @@ export default ({ children }) => (
     <header style={{ marginBottom: `1.5rem` }}>
 
       <Link to="/" style={{ textShadow: `none`, backgroundImage: `logo.png` }}>
-        <img  src="logo.png" style={{ display: `inline`, width: `10%` }}/>
+        <img src={logo} style={{ display: `inline`, width: `10%` }}/>
       </Link>
 
       <ul style={{ listStyle: `none`, float: `right` }}>
