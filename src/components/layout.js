@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import logo from "./logo.png"
+import logo from "../images/logo.png"
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -29,5 +29,15 @@ export default ({ children }) => (
     </header>
     
     {children}
+
+    <footer>
+      <p>Rao Studios c 2011</p>
+      <div> 
+        Twitter
+            App Store
+            LinkedIn
+            Github
+      </div>
+    </footer>
   </div>
 )
