@@ -14,7 +14,7 @@ export default ({ children }) => (
     <header style={{ marginBottom: `1.5rem` }}>
 
       <Link to="/" style={{ textShadow: `none`, backgroundImage: `logo.png` }}>
-        <img src={logo} style={{ display: `inline`, width: `10%` }}/>
+        <img src={logo} alt="logo" style={{ display: `inline`, width: `10%` }}/>
       </Link>
 
       <ul style={{ listStyle: `none`, float: `right` }}>
