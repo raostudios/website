@@ -45,7 +45,7 @@ export default ({ data }) => (
     </section>
     
     <section>
-    <h1>Blog Post</h1>
+    <h1>Blog</h1>
     </section>
     
     <section>
