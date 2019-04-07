@@ -32,3 +32,17 @@ h3 {
   text-align: center;
 }
 
+footer img {
+  width: 20px;
+  height: 20px;
+}
+
+.cover {
+  width: 100%;
+}
+
+.app-icon {
+  width: "100px";
+  height: "100px";
+}
+

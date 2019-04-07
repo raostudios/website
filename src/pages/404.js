@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../layouts/layout"
 
 export default () => (
   <Layout title='Rao Studios Home'>

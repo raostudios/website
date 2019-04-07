@@ -1,6 +1,6 @@
 import React from "react"
-import Layout from "../components/layout"
-import { withPrefix } from 'gatsby'
+import Layout from "../layouts/layout"
+import DeviceScreenshot from "../components/device_screenshot"
 
 const AppShowcase = ({ apps }) => (
   <div>
@@ -14,21 +14,12 @@ const AppShowcase = ({ apps }) => (
   </div>
 )
 
-const DeviceScreenshot = ({ imagesrc }) => (
-  <div class = "iphone-container">
-    <div class = "iphone-frame">
-      <img src = {withPrefix(imagesrc)} alt="screenshot"  class = "partner-img" />
-    </div>
-  </div>
-)
-
 const ContactUsForm = props => (
   <div></div>
 )
 
-
 export default ({ data }) => (
-  <Layout title='Rao Studios Home'>
+  <Layout>
 
     <section>
     <h1>Rao Studios builds the best apps</h1>
@@ -58,11 +49,6 @@ export default ({ data }) => (
 
 export const pageQuery = graphql`
   query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     allAppsJson {
       edges {
         node {

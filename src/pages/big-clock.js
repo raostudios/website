@@ -1,8 +1,8 @@
 import React from "react"
-import AppPageLayout from "../components/app-page-layout"
+import AppPageLayout from "../layouts/app-page-layout"
 
 export default () => (
-  <AppPageLayout name = "big-clock">
+  <AppPageLayout name = "big-clock" tintColor = "cccccc">
     <p>
       Big Clock Under construction
     </p>
