@@ -5,12 +5,14 @@ import DeviceScreenshot from "../components/device_screenshot"
 const AppShowcase = ({ apps }) => (
   <div>
     <h1>Our Apps</h1>
+    <div class = "app-showcase">
     {apps.edges.map(({ node }) => (
-      <div class="col-3">
+      <div>
         <DeviceScreenshot imagesrc = {node.main_screenshot} />
         <a href={node.main_page_url}><h3>{node.name}</h3></a>
       </div>
     ))}
+    </div>
   </div>
 )
 
