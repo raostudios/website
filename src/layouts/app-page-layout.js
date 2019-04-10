@@ -36,7 +36,7 @@ export default ({ name, children}) => (
     `
     } render = { data => (
       <Layout>
-      
+      {console.log(data)}
       <div class="main-app-header" style =  {{ backgroundColor: '#cccccc' }} >
         <h3>{data.allAppsJson.edges[0].node.name}</h3>
         <h4>{data.allAppsJson.edges[0].node.tagLine}</h4>
