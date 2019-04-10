@@ -6,7 +6,7 @@ const ImageShowcase = props => (
 )
 
 export default () => (
-  <AppPageLayout name = 'Preset' tintColor='#545345'>
+  <AppPageLayout name = 'Preset'>
     <ImageShowcase />
   </AppPageLayout>
 )

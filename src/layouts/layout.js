@@ -34,7 +34,7 @@ const Header = ({ data }) => (
 
 const Footer = ({ links }) => (
   <footer>
-      Rao Studios c 2011
+      Rao Studios, Inc. &copy; 2011
        
           <a href={'https://itunes.apple.com/us/developer/' + links.app_store}><img src = {appStoreIcon} alt = ""/></a>
           <a href={'https://www.twitter.com/' + links.twitter}><img src = {twitterIcon} alt = "" /></a>
@@ -70,9 +70,9 @@ export default ({ children, data }) => (
   ]}>
   </Helmet>
 
-  <div style={{ margin: `3rem auto`, maxWidth: 1024, padding: `0 0rem` }}>
+  <div style={{ margin: `1rem auto`, maxWidth: 1024, padding: `0 0rem` }}>
     <Header />
-    <div style={{ margin: `3rem auto`, maxWidth: 800, padding: `0 0rem` }}>
+    <div style={{ margin: `2rem auto`, maxWidth: 800, padding: `0 0rem` }}>
       {children}
     </div>
     <Footer links = {data.site.siteMetadata.links}/>  

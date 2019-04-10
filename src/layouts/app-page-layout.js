@@ -3,7 +3,6 @@ import { graphql, StaticQuery, withPrefix } from "gatsby"
 
 import Layout from "./layout"
 import DeviceScreenshot from "../components/device_screenshot"
-import logo from "../images/apps/preset/logo.png"
 import AppStoreBadge from '../images/Download_on_the_App_Store_Badge.svg'
 
 const AppStoreButton = ({ appId }) => (

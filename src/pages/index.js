@@ -17,7 +17,7 @@ const AppShowcase = ({ apps }) => (
 )
 
 const ContactUsForm = props => (
-  <div></div>
+  <div>Email Us: <a href="mailto:contact@raostudios.com<">contact@raostudios.com</a></div>
 )
 
 export default ({ data }) => (
@@ -34,7 +34,7 @@ export default ({ data }) => (
 
     <section>
     <h1>How we help clients</h1>
-    <p>Augment your team</p>
+    <p>We bring the same attention to detail and care we use to build our products to build your product.  We closely collaborate with our partners to build great, high quality experiences. We reuse our proven, tested components to get your app off to a fast start. We then dedicate our focus on make makes your app unique and special. We also share our marketing and engagement data from over 20K users of our apps to help you make great, informed decisions.</p>
     </section>
     
     <section>

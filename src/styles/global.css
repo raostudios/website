@@ -31,7 +31,7 @@
 
 section {
   clear:both;
-  margin: 1em 1em;
+  margin: 3em 1em;
 }
 
 h3 {
@@ -72,7 +72,7 @@ footer a {
 }
 
 .main {
-  margin: 3rem auto;
+  margin: 1rem auto;
   max-width: 1024px;
   padding: 0 1rem;
 }
@@ -105,4 +105,12 @@ footer a {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 2em;
   grid-row-gap: 3em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
 }

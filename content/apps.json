@@ -2,7 +2,7 @@
   {
     "name": "Big Clock",
     "mainPageUrl": "/big-clock",
-    "icon": "/apps/big_clock/logo.png",
+    "icon": "/apps/big-clock/logo.png",
     "tagLine": "Biggest clock on you phone",
     "mainVideo": {
       "url":"https://player.vimeo.com/video/174277280"
@@ -16,7 +16,8 @@
         "img-src": "hello.jpg"
       }
     ],
-    "tintColor": "#ffcccc"
+    "tintColor": "#ffcccc",
+    "appleAppId": "583451358"
   },
   {
     "name": "Preset",
@@ -40,22 +41,7 @@
   },
   {
     "name": "Own it!",
-    "main-page-url": "/big-clock",
-    "icon": "app.png",
-    "tag-line": "Biggest clock on you phone",
-    "main-video": {
-      "url":"blah",
-      "loading image": "blah"
-    },
-    "main-screenshot": "/apps/own-it/main.png",
-    "app-store-url": "https://itunes.apple.com/app/apple-store/id583451358?pt=1507981&ct=landing_page&mt=8",
-    "features": [],
-    "screens": [
-      {
-        "title": "Hello",
-        "img-src": "hello.jpg"
-      }
-    ],
-    "tint-color": "#cccccc"
+    "mainScreenshot": "/apps/own-it/main.png",
+    "mainPageUrl": "/own-it"
   }
 ]
