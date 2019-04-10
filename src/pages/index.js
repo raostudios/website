@@ -8,8 +8,8 @@ const AppShowcase = ({ apps }) => (
     <div class = "app-showcase">
     {apps.edges.map(({ node }) => (
       <div>
-        <DeviceScreenshot imagesrc = {node.main_screenshot} />
-        <a href={node.main_page_url}><h3>{node.name}</h3></a>
+        <DeviceScreenshot imagesrc = {node.mainScreenshot} />
+        <a href={node.mainPageUrl}><h3>{node.name}</h3></a>
       </div>
     ))}
     </div>
@@ -55,8 +55,8 @@ export const pageQuery = graphql`
       edges {
         node {
           name
-          main_screenshot
-          main_page_url
+          mainScreenshot
+          mainPageUrl
         }
       }
     }

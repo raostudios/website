@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, StaticQuery } from "gatsby"
+import { graphql, StaticQuery, withPrefix } from "gatsby"
 
 import Layout from "./layout"
 import DeviceScreenshot from "../components/device_screenshot"
@@ -12,11 +12,15 @@ const AppStoreButton = ({ appId }) => (
   </a>
 )
 
+const currentApp = (data, name) => {
+   return data.allAppsJson.edges.filter(edge => edge.node.name === name)[0].node 
+}
+
 export default ({ name, children}) => (
   <StaticQuery
     query={graphql`
       query {
-        allAppsJson(filter: {name: {eq: "Preset"}}) {
+        allAppsJson {
           edges {
             node {
               name
@@ -36,13 +40,12 @@ export default ({ name, children}) => (
     `
     } render = { data => (
       <Layout>
-      
-      <div class="main-app-header" style =  {{ backgroundColor: '#cccccc' }} >
-        <h3>{data.allAppsJson.edges[0].node.name}</h3>
-        <h4>{data.allAppsJson.edges[0].node.tagLine}</h4>
-        <img class = "app-icon" src = {logo} alt = ""/>
-        <DeviceScreenshot videourl = { data.allAppsJson.edges[0].node.mainVideo.url }/> 
-        <AppStoreButton appId = { data.allAppsJson.edges[0].node.appleAppId }/>
+      <div class="main-app-header" style =  {{ backgroundColor: currentApp(data, name).tintColor }} >
+        <h3>{currentApp(data, name).name}</h3>
+        <h4>{currentApp(data, name).tagLine}</h4>
+        <img class = "app-icon" src = {withPrefix(currentApp(data, name).icon)} alt = ""/>
+        <DeviceScreenshot videourl = { currentApp(data, name).mainVideo.url }/> 
+        <AppStoreButton appId = { currentApp(data, name).appleAppId }/>
       </div>
 
       {children}

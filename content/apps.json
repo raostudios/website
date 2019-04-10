@@ -2,7 +2,7 @@
   {
     "name": "Big Clock",
     "mainPageUrl": "/big-clock",
-    "icon": "app.png",
+    "icon": "/apps/big_clock/logo.png",
     "tagLine": "Biggest clock on you phone",
     "mainVideo": {
       "url":"https://player.vimeo.com/video/174277280"
@@ -21,7 +21,7 @@
   {
     "name": "Preset",
     "mainPageUrl": "/preset",
-    "icon": "app.png",
+    "icon": "/apps/preset/logo.png",
     "tagLine": "Be set. With Preset.",
     "mainVideo": {
       "url":"https://player.vimeo.com/video/194925287"
