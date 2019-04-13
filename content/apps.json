@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Big Clock",
+    "mainPageUrl": "/big-clock",
+    "icon": "/apps/big-clock/logo.png",
+    "tagLine": "Biggest clock on you phone",
+    "mainVideo": {
+      "url":"https://player.vimeo.com/video/174277280"
+    },
+    "mainScreenshot": "/apps/big-clock/main.jpg",
+    "appStoreUrl": "https://itunes.apple.com/app/apple-store/id583451358?pt=1507981&ct=landing_page&mt=8",
+    "features": [],
+    "screens": [
+      {
+        "title": "Hello",
+        "img-src": "hello.jpg"
+      }
+    ],
+    "tintColor": "#ffcccc",
+    "appleAppId": "583451358"
+  },
+  {
+    "name": "Preset",
+    "mainPageUrl": "/preset",
+    "icon": "/apps/preset/logo.png",
+    "tagLine": "Be set. With Preset.",
+    "mainVideo": {
+      "url":"https://player.vimeo.com/video/194925287"
+    },
+    "mainScreenshot": "/apps/preset/main.png",
+    "appStoreUrl": "https://itunes.apple.com/app/apple-store/id583451358?pt=1507981&ct=landing_page&mt=8",
+    "features": [],
+    "screens": [
+      {
+        "title": "Hello",
+        "imgSrc": "hello.jpg"
+      }
+    ],
+    "tintColor": "#cc00cc",
+    "appleAppId": "990229325"
+  },
+  {
+    "name": "Own it!",
+    "mainScreenshot": "/apps/own-it/main.png",
+    "mainPageUrl": "/own-it"
+  }
+]

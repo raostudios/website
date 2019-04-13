@@ -1,0 +1,116 @@
+.iphone-container {
+  background-image:  url("../images/iphone8.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 1em 0em;
+  width: 22em;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.iphone-frame {
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.partner-img {
+  position: relative;
+  width: 13em;
+  height: 22.5em;
+}
+
+.partner-video {
+  position: relative;
+  width: 13em;
+  height: 22.5em;
+}
+
+section {
+  clear:both;
+  margin: 3em 1em;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.44em;
+}
+
+h4 {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+body {
+  margin: 0 0;
+  font-size: 1em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 1em;
+}
+
+header {
+  padding: 0em 1em; 
+}
+
+footer img {
+  width: 20px;
+  height: 20px;
+}
+
+footer a {
+  padding: 5px 5px;
+}
+
+.content {
+  max-width: 800;
+}
+
+.main {
+  margin: 1rem auto;
+  max-width: 1024px;
+  padding: 0 1rem;
+}
+
+.app-icon {
+  width: 8em;
+  height: 8em;
+  margin: 0 auto;
+  display: block; 
+  border-radius: 1em;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.main-app-header {
+  padding: 1em 1em;
+}
+
+.app-store-badge {
+  width: 80%;
+  max-width: 15em;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.app-showcase {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 2em;
+  grid-row-gap: 3em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
