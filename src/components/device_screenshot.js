@@ -1,6 +1,5 @@
 import { withPrefix } from 'gatsby'
 import React from "react"
-import iphoneFrame from  "../images/iphone8.png"
 
 const DeviceScreenshot = ({ imagesrc, videourl }) => (
   <div class = "iphone-container">

@@ -8,18 +8,21 @@ export default ({data}) => (
   <Layout>
     <SEO
           title="All posts"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+          keywords={[`blog`, `rao studios`, `swift`, `mobile`]}
      />
     {data.allMarkdownRemark.edges.map(({ node }) => {
       const title = node.frontmatter.title || node.fields.slug
       return (
-        <div key={node.fields.slug}>
-          <h3>
+        <div key={node.fields.slug} style = {{ padding: "1em 1em" }}>
+          <h3 style= {{marginBottom: "4px" }}>
             <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
               {title}
             </Link>
           </h3>
-          <small>{node.frontmatter.date}</small>
+          <h5 style= {{marginTop: "4px" }}>
+            {node.frontmatter.date}
+          </h5>
+
           <p
             dangerouslySetInnerHTML={{
               __html: node.frontmatter.description || node.excerpt,

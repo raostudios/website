@@ -5,7 +5,6 @@ import twitterIcon from "../images/twitter.svg"
 import githubIcon from "../images/github.png"
 import appStoreIcon from "../images/appstore.svg"
 
-
 import Helmet from "react-helmet"
 
 const ListLink = props => (

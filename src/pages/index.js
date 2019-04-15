@@ -1,6 +1,8 @@
 import React from "react"
 import Layout from "../layouts/layout"
 import DeviceScreenshot from "../components/device_screenshot"
+import SEO from "../components/seo"
+import { graphql } from 'gatsby'
 
 const AppShowcase = ({ apps }) => (
   <div>
@@ -9,7 +11,7 @@ const AppShowcase = ({ apps }) => (
     {apps.edges.map(({ node }) => (
       <div>
         <DeviceScreenshot imagesrc = {node.mainScreenshot} />
-        <a href={node.mainPageUrl}><h3>{node.name}</h3></a>
+        <a href={node.mainPageUrl} style = {{textAlign: "center"}}><h3>{node.name}</h3></a>
       </div>
     ))}
     </div>
@@ -21,6 +23,11 @@ const ContactUsForm = props => (
 )
 
 export default ({ data }) => (
+  <>
+  <SEO
+      title="Rao Studios"
+      keywords={[`rao studios`, `swift`, `mobile`, `development`, `ios`]}
+  />
   <Layout>
 
     <section>
@@ -33,7 +40,7 @@ export default ({ data }) => (
     </section>  
 
     <section>
-    <h1>How we help clients</h1>
+    <h1>How We Help Clients</h1>
     <p>We bring the same attention to detail and care we use to build our products to build your product.  We closely collaborate with our partners to build great, high quality experiences. We reuse our proven, tested components to get your app off to a fast start. We then dedicate our focus on make makes your app unique and special. We also share our marketing and engagement data from over 20K users of our apps to help you make great, informed decisions.</p>
     </section>
     
@@ -47,6 +54,7 @@ export default ({ data }) => (
     </section>
 
   </Layout>
+  </>
 )
 
 export const pageQuery = graphql`

@@ -1,6 +1,7 @@
 ---
 title: Draft
 date: "2015-05-01T22:12:03.284Z"
+keywords: [hello_world, swift, mobile, ios]
 status: "draft"
 ---
 

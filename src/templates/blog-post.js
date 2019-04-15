@@ -15,13 +15,15 @@ class BlogPostTemplate extends React.Component {
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
+          keywords={post.frontmatter.keywords}
         />
-        <h1>{post.frontmatter.title}</h1>
-        <p>
-          {post.frontmatter.date}
-        </p>
+        <div style = {{padding: "1em 1em"}}>
+        <div>
+        <h1 style= {{marginBottom: "4px" }}>{post.frontmatter.title}</h1>
+        <h5 style= {{marginTop: "4px" }}>{post.frontmatter.date}</h5>
+        </div>
+
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr/>
         <ul
           style={{
             display: `flex`,
@@ -46,6 +48,7 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
+        </div>
       </Layout>
     )
   }
@@ -68,6 +71,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        keywords
       }
     }
   }
