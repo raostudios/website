@@ -41,7 +41,8 @@ export default ({ data }) => (
 
     <section>
     <h1>How We Help Clients</h1>
-    <p>We bring the same attention to detail and care we use to build our products to build your product.  We closely collaborate with our partners to build great, high quality experiences. We reuse our proven, tested components to get your app off to a fast start. We then dedicate our focus on make makes your app unique and special. We also share our marketing and engagement data from over 20K users of our apps to help you make great, informed decisions.</p>
+    <p>We bring the same attention to detail and care we use to build our products to build your product.</p>
+    <p>We closely collaborate with our partners to build great, high quality experiences. We reuse our proven, tested components to get your app off to a fast start. We then dedicate our focus on what makes your app unique. We also share our marketing and engagement data from over 20K users of our apps to help you make great, informed decisions.</p>
     </section>
     
     <section>

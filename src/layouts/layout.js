@@ -33,12 +33,15 @@ const Header = ({ data }) => (
 
 const Footer = ({ links }) => (
   <footer>
+    <div>
       Rao Studios, Inc. &copy; 2011
-       
-          <a href={'https://itunes.apple.com/us/developer/' + links.app_store}><img src = {appStoreIcon} alt = ""/></a>
-          <a href={'https://www.twitter.com/' + links.twitter}><img src = {twitterIcon} alt = "" /></a>
-          <a href={'https://www.github.com/' + links.github}><img src = {githubIcon} alt = "" /></a>
-      
+    </div>
+    <div style= {{verticalAlign: "middle"}}>   
+          <a href={'https://itunes.apple.com/us/developer/' + links.app_store}
+            ><img src = {appStoreIcon} alt = ""/></a>
+          <a href={'https://www.twitter.com/' + links.twitter}><img src = {twitterIcon} alt = ""/></a>
+          <a href={'https://www.github.com/' + links.github}><img src = {githubIcon} alt = ""/></a>
+    </div>
   </footer>
 )
 

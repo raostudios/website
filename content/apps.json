@@ -3,7 +3,7 @@
     "name": "Big Clock",
     "mainPageUrl": "/big-clock",
     "icon": "/apps/big-clock/logo.png",
-    "tagLine": "Biggest clock on you phone",
+    "tagLine": "Biggest clock on your phone",
     "mainVideo": {
       "url":"https://player.vimeo.com/video/174277280"
     },
