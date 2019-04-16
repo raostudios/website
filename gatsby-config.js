@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Rao Studios Hompage`,
     author: `Rao Studios`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Home of Rao Studios, Inc., creators of Big Clock, Preset and Own it!.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     links: {
       twitter: `raostudios`,

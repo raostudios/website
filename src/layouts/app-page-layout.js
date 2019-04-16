@@ -34,6 +34,7 @@ export default ({ name, children}) => (
               mainVideo {
                 url
               }
+              description
             }
           }
         }
@@ -44,10 +45,11 @@ export default ({ name, children}) => (
       <SEO
           title={currentApp(data, name).name}
           keywords={[`blog`, `rao studios`, `swift`, `mobile`]}
+          description={currentApp(data, name).description}
       />
       <Layout>
       <div class="main-app-header" style =  {{ backgroundColor: currentApp(data, name).tintColor, textAlign: "center" }} >
-        <h3>{currentApp(data, name).name}</h3>
+        <h1>{currentApp(data, name).name}</h1>
         <h4>{currentApp(data, name).tagLine}</h4>
         <img class = "app-icon" src = {withPrefix(currentApp(data, name).icon)} alt = ""/>
         <DeviceScreenshot videourl = { currentApp(data, name).mainVideo.url }/> 

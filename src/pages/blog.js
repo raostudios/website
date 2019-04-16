@@ -9,6 +9,7 @@ export default ({data}) => (
     <SEO
           title="All posts"
           keywords={[`blog`, `rao studios`, `swift`, `mobile`]}
+          description="Blog about mobile development, marketing and strategy."
      />
     {data.allMarkdownRemark.edges.map(({ node }) => {
       const title = node.frontmatter.title || node.fields.slug

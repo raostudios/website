@@ -17,7 +17,8 @@
       }
     ],
     "tintColor": "#ffcccc",
-    "appleAppId": "583451358"
+    "appleAppId": "583451358",
+    "description": "Big Clock allows you to view the time, weather and photos from far away."
   },
   {
     "name": "Preset",
@@ -37,7 +38,8 @@
       }
     ],
     "tintColor": "#cc00cc",
-    "appleAppId": "990229325"
+    "appleAppId": "990229325",
+    "description": "Preset allows you to create and reuse your own photo filters."
   },
   {
     "name": "Own it!",

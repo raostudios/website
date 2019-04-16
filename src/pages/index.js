@@ -6,7 +6,7 @@ import { graphql } from 'gatsby'
 
 const AppShowcase = ({ apps }) => (
   <div>
-    <h1>Our Apps</h1>
+    <h2>Our Apps</h2>
     <div class = "app-showcase">
     {apps.edges.map(({ node }) => (
       <div>
@@ -31,7 +31,7 @@ export default ({ data }) => (
   <Layout>
 
     <section>
-    <h1>Rao Studios builds the best apps</h1>
+    <h2>Rao Studios builds the best apps</h2>
     <p>We build products to engage, delight and enhance the human experience.</p>
     </section>
 
@@ -40,17 +40,17 @@ export default ({ data }) => (
     </section>  
 
     <section>
-    <h1>How We Help Clients</h1>
+    <h2>How We Help Clients</h2>
     <p>We bring the same attention to detail and care we use to build our products to build your product.</p>
     <p>We closely collaborate with our partners to build great, high quality experiences. We reuse our proven, tested components to get your app off to a fast start. We then dedicate our focus on what makes your app unique. We also share our marketing and engagement data from over 20K users of our apps to help you make great, informed decisions.</p>
     </section>
     
     <section>
-    <h1>Blog</h1>
+    <h2>Blog</h2>
     </section>
     
     <section>
-    <h1>Contact Us</h1>
+    <h2>Contact Us</h2>
     <ContactUsForm />
     </section>
 
