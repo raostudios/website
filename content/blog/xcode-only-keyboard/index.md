@@ -37,21 +37,11 @@ When you are in it you never realize what you are accomplishing
 
 ### Working with a Product Manager
 
-They think different. They have to focus on implementation and also future plans.
-
 ### Working with a designer
-
-Designers are the more artsy type. The good one have eyes like hawks but also know to make astehetic/time to implement tradeoff.
 
 ### Collogues can be hard
 
-Everyone has different experiances and values, find a way to match.
-
-Code review are hard on the ego and relationships.
-
-### Working with a manager/tech lead
-
-Show respect for their experiance but also state your opinion.
+Everyone has different experiances and values, find a way to match 
 
 ## Learning a new Codebase
 
@@ -61,17 +51,9 @@ Look for patterns and archtecture in the current code and try to replicate that.
 
 Git
 
-Xcode/Instuments
 
-Jira
 
 ## Communication
-
-Document everything. Especially tough decisions. Let the team know about any tradeoffs you ahd to make.
-
-## Deliver
-
-Always deliver what you promise. If you arn't sure you can deliver, don't promise. Document any risks that might cause the project to fail.
 
 ## Releases are hard
 
@@ -79,14 +61,10 @@ easy to mess up
 
 ## New OS every year
 
-Although there was some intrigue to working on a new OS each year. It died quickly since the new OS's didn't have many new features but we still have to support the new OS and the old ones.
-
 ## Googling and Stack Overflow
 
 ## Architecture
 
-## Passion
-
 ## Tests & Bugs
 
-## Animations are secondary
+## animations are secondary
