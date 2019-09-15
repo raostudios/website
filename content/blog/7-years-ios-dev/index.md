@@ -1,21 +1,18 @@
 ---
 title: 7 Years of iOS Development
-date: "2019-04-01T22:12:00.00Z"
+date: "2019-06-19T00:00:00.01Z"
 author: "Venkat S Rao"
-keywords: [hello_world, swift, mobile, ios]
+keywords: [software, tips, advice, ios]
 status: "draft"
-
 ---
 
-I wanted to share my experiances as an developer and thought it would be good documentation for myself and maybe someone else can learn from my experiance.
+I want to share my experiances as an developer and thought it would be good documentation for myself and maybe someone else can learn from my experiance.
 
-## Pre iOS
-
-Well I have a degree in Mechanical Engineering. I learned to code in high school and would do side projects after work. Initially I was just experimenting with Google App Engine and learning python. After I
+I have a degree in Mechanical Engineering. I initially learned to code in an AP class in high school. I entered college as a Computer Engineering major but switched to Mechanical Engineering after I was really bored in a internship in Finance. After I graduated I would do coding side projects after my ME full time job, which was much more boring than the tech in finance internship. I started just experimenting with Google App Engine and learning python. Soon I realized there were really exciting developments in iPhone App development. I quit my job and taught myself iOS development.
 
 ## Indie is hard
 
-By the time I really launch an app, I was too late for the indie app wave. The App Store had matured, it really favored well established companies with processes and contacts with App Store editors. User acquisition became especially hard. A single indie dev could no longer launch an app and expect to make a good return. 
+By the time I launched my first app I was too late for the indie app wave. The App Store had matured, it really favored well established companies with processes and contacts with App Store editors. User acquisition became especially hard. A single indie dev could no longer launch an app and expect to make a good return. 
 
 ## Contracting vs Consulting
 
@@ -28,6 +25,9 @@ Find alignment on business, product and culture. Think about compensation but th
 ## Passion
 
 Know how you perform when you are noth passionate about something. Every job will have days when you have to fix a bug, build a feature or perform other duties that you are not fully passionate about. Find a way to maintain your output and deliver a high quality work product.
+
+## Meetups
+
 
 ## Work can seem tough
 
@@ -67,7 +67,7 @@ Jira
 
 ## Communication
 
-Document everything. Especially tough decisions. Let the team know about any tradeoffs you ahd to make.
+Document everything. Especially tough decisions. Let the team know about any tradeoffs you had to make.
 
 ## Deliver
 
@@ -84,8 +84,6 @@ Although there was some intrigue to working on a new OS each year. It died quick
 ## Googling and Stack Overflow
 
 ## Architecture
-
-## Passion
 
 ## Tests & Bugs
 
