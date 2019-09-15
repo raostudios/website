@@ -20,7 +20,9 @@ class BlogPostTemplate extends React.Component {
         <div style = {{padding: "1em 1em"}}>
         <div>
         <h1 style= {{marginBottom: "4px" }}>{post.frontmatter.title}</h1>
-        <h5 style= {{marginTop: "4px" }}>{post.frontmatter.date}</h5>
+
+        <h5 style= {{marginTop: "1em", marginBottom: "0.4em" }}>By {post.frontmatter.author}</h5>
+        <h5>{post.frontmatter.date}</h5>
         </div>
 
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -72,6 +74,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         keywords
+        author
       }
     }
   }
